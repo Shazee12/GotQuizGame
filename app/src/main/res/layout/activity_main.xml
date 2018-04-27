@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/got"
+    android:orientation="vertical"
+
+    >
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:id="@+id/txt"
+        android:text="Game of Thrones"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:paddingTop="30dp"
+        android:textSize="45sp"/>
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt"
+        android:text="Quiz is Coming"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:alpha="0.5"
+        android:splitMotionEvents="false">
+
+        <Button
+            android:id="@+id/btnplaygame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/txt1"
+            android:layout_weight="1"
+            android:text="Play Game"
+            android:textSize="24sp"
+            android:background="@color/trasparent"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnmute"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/btnplaygame"
+            android:layout_weight="1"
+            android:background="@color/trasparent"
+            android:textSize="24sp"
+
+            android:gravity="center"
+            android:text="Mute Music"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/btnexit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/btnmute"
+            android:layout_weight="1"
+            android:text="Exit"
+            android:textSize="24sp"
+
+            android:background="@color/trasparent"
+            android:textColor="#fff"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

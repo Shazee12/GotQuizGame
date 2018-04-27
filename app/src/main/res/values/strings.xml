@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GotQuizGame</string>
+    <string name="musicoff">MUSIC: UNMUTE</string>
+    <string name="musicon">MUSIC: MUTE</string>
+</resources>
